@@ -1,3 +1,5 @@
 #!/bin/bash
 
-curl wttr.in/Prague
+mesto="$1"
+
+curl wttr.in/"$mesto"
